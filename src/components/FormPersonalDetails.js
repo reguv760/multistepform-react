@@ -25,7 +25,7 @@ class FormPersonalDetails extends Component {
             hintText="Enter Your Occupation"
             floatingLabelText="Occupation"
             onChange={handleChange("occupation")}
-            defaeultValue={values.occupation}
+            defaultValue={values.occupation}
           />
 
           <br />
@@ -34,7 +34,7 @@ class FormPersonalDetails extends Component {
             hintText="Enter Your City"
             floatingLabelText="City"
             onChange={handleChange("city")}
-            defaeultValue={values.city}
+            defaultValue={values.city}
           />
 
           <br />

@@ -19,7 +19,7 @@ class FormUserDetails extends Component {
             hintText="Enter Your First Name"
             floatingLabelText="First Name"
             onChange={handleChange("firstName")}
-            defaeultValue={values.firstName}
+            defaultValue={values.firstName}
           />
 
           <br />
@@ -28,7 +28,7 @@ class FormUserDetails extends Component {
             hintText="Enter Your Last Name"
             floatingLabelText="Last Name"
             onChange={handleChange("lastName")}
-            defaeultValue={values.lastName}
+            defaultValue={values.lastName}
           />
 
           <br />
