@@ -7,10 +7,14 @@ import RaisedButton from "material-ui/RaisedButton";
 class Confirm extends Component {
   continue = e => {
     e.preventDefault();
-
-    //PROCESS FORM HERE::::
     this.props.nextStep();
   };
+
+  back = e => {
+    e.preventDefault();
+    this.props.prevStep();
+  };
+
   render() {
     const {
       values: { firstName, lastName, email, occupation, city, bio }
